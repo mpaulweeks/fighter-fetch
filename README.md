@@ -1,5 +1,10 @@
 # fighter-fetch
 script for downloading the latest version of a game
 
-- http://storage.googleapis.com/fighter-html/version.json
-- http://storage.googleapis.com/fighter-html/0.7.31.zip
+```bash
+# get latest version
+npm run fetch
+
+# host the game on a local server
+npm run start
+```
