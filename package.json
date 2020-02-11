@@ -1,0 +1,26 @@
+{
+  "name": "fighter-fetch",
+  "version": "1.0.0",
+  "author": "mpaulweeks",
+  "license": "ISC",
+  "description": "script for downloading the latest version of a game",
+  "homepage": "https://github.com/mpaulweeks/fighter-fetch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpaulweeks/fighter-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mpaulweeks/fighter-fetch/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "fetch": "ts-node bin/fetchVersion.ts",
+    "start": "npm run fetch"
+  },
+  "dependencies": {
+    "@types/node": "^13.7.0",
+    "node-fetch": "^2.6.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
