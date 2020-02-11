@@ -14,8 +14,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "fetch": "ts-node bin/fetchVersion.ts",
-    "start": "http-server latest/dist"
+    "fetch": "ts-node src/fetchVersion.ts",
+    "start": "http-server latest/dist",
+    "update": "git pull && npm run fetch"
   },
   "dependencies": {
     "@types/node": "^13.7.0",

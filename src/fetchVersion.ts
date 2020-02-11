@@ -18,8 +18,8 @@ const path = {
 
 const downloadDist = async (version: string) => {
   console.log('downloading:', version);
+  await deleter.promise([path.tempDist]);
   const latestResp = await fetch(path.remoteDist(version));
-
   const stream = fs.createWriteStream(path.tempDist);
   await new Promise((resolve, reject) => {
     stream.on('error', reject);
