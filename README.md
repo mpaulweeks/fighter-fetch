@@ -14,4 +14,8 @@ npm run start
 
 ```bash
 curl -sL https://raw.githubusercontent.com/mpaulweeks/fighter-fetch/master/bash/download.sh | sudo bash -
+cd fighter-fetch
+./bash/setup.sh
+./bash/update.sh
+npm run start
 ```
