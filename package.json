@@ -12,6 +12,9 @@
   "bugs": {
     "url": "https://github.com/mpaulweeks/fighter-fetch/issues"
   },
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "main": "index.js",
   "scripts": {
     "fetch": "ts-node src/fetchVersion.ts",
