@@ -17,6 +17,6 @@ if [ "$_IP" ]; then
 printf "My IP address is %s\n" "$_IP"
 fi
 
-cd ~/git/fighter-fetch && ./bash/boot.sh
+cd /home/pi/git/fighter-fetch && ./bash/boot.sh > /home/pi/Desktop/boot.log 2>&1 &
 
 exit 0
