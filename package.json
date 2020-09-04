@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@types/node": "^13.7.0",
-    "decompress": "^4.2.0",
+    "decompress": "^4.2.1",
     "delete": "^1.1.0",
     "http-server": "^0.12.1",
     "node-fetch": "^2.6.0",
